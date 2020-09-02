@@ -3,11 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    background-color: black;
+    background-color: #181719;
+    font-family: 'Lora', serif;
+}
+
+#wrapper {
+    padding: 1rem;
+    margin-bottom: 15rem;
 }
 
 nav img {
-    max-width: 1.2rem;
+    width: 30px;
+    height: 30px;
 }
 
 article a {
@@ -31,4 +38,88 @@ article a {
 	border-top: 5px solid transparent;
 	border-left: 10px solid white;
 	border-bottom: 5px solid transparent;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 2rem 0 5rem 0;
+    align-items: center;
+}
+
+nav ul {
+    display: none;
+}
+
+nav h1 {
+    border: 1px solid white;
+    padding: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 1rem;
+}
+
+main {
+    position: relative;
+}
+
+main article h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+main article p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+}
+
+main article a {
+    margin: 1.5rem 0;
+}
+
+#main-image img{
+    max-width: 100%;;
+}
+
+#copyright {
+    position: absolute;
+    margin: 1.2rem;
+    padding: 1rem;
+    box-shadow: 0 10px 6px -6px black;
+    top: 83%;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#copyright img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+#copy-text {
+    flex-basis: 80%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+}
+
+#copyright h1{
+    font-size: 1rem;
+    margin: 0 0 0 1rem;
+    letter-spacing: 0.1rem;
+}
+
+#copyright h2 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 0 0 0 1rem;
+    letter-spacing: 0.1rem;
 }
