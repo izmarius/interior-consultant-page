@@ -169,3 +169,61 @@ a {
 
 /* media */
 
+@media screen and (min-width: 1025px) {
+    #wrapper {
+        padding: 0 3rem;
+    }
+
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    article {
+        flex: 1 0 35%;
+    }
+
+    #main-image {
+        padding-left: 3rem;
+        flex: 1 0 65%;
+    }
+
+    #copyright {
+        left: 42%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #wrapper {
+        padding: 0 4rem;
+    }
+
+    article {
+        padding-right: 5rem;
+        flex: 1 0 50%;
+    }
+
+    #main-image {
+        padding-left: 2rem;
+        flex: 1 0 50%;
+    }
+
+    #copyright {
+        left: 55%;
+        width: 30%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        padding: 2rem 0;
+    }
+
+    nav ul.menu-list {
+        display: flex;
+    }
+}
