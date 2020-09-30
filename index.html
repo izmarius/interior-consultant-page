@@ -9,17 +9,18 @@
 </head>
 <body>
     <div id="wrapper">
-        <nav>
-            <h1>This interior</h1>
-            <img id="menu" src="/img/menu.png" alt="menu with lines">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav id="nav-bar">
+            <h1 class="only-menu">This interior</h1>
+            <img id="menu" src="/img/menu.png" alt="menu with lines" class="only-menu mouse-cusor">
+            <h1 id="close-menu" class="menu-list hidden mouse-cusor">X</h1>
+            <ul class="menu-list hidden">
+                <li class="menu-item default-menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">Collection</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <main>
+        <main class="only-menu">
             <article>
                 <h2>Modern interior</h2>
                 <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
@@ -38,5 +39,6 @@
             </div>
         </main>
     </div>
+    <script src="./script/script.js"></script>
 </body>
 </html>
